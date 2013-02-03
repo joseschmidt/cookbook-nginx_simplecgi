@@ -2,7 +2,7 @@
 #
 pkgs = value_for_platform(
   %w(redhat centos fedora scientific) => {
-    %w(5.0 5.1 5.2 5.3 5.4 5.5 5.6 5.7 5.8) => %w(fcgi-perl spawn-fcgi),
+    %w(5.0 5.1 5.2 5.3 5.4 5.5 5.6 5.7 5.8 5.9) => %w(fcgi-perl spawn-fcgi),
     "default" => %w(perl-FCGI perl-FCGI-ProcManager spawn-fcgi)
   },
   "default" => %w(libfcgi-perl libfcgi-procmanager-perl spawn-fcgi)
